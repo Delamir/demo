@@ -15,5 +15,7 @@ public class JobContext {
     private String state;
     private List<String> urlParams;
     private String feed;
-    private String config;
+    private FeedConfig config;
+
+    //Lavet lige ud fra hukommelse. Men vi har jo allerede de vigtige oplysninger fra frameworket.
 }

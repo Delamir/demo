@@ -33,8 +33,4 @@ public class Scraper {
     @Column(name="value")
     @CollectionTable(name="value_attributes", joinColumns = @JoinColumn(name="key_id"))
     private Map<String, String> bodyTemplate;
-
-    @Column
-    private String params;
-
 }

@@ -52,6 +52,6 @@ public class Worker {
         System.out.println("Response Code : " + response.statusCode());
         System.out.println("Response Body : " + Arrays.toString(response.body()));
 
-        //save to sftp.
+        //Save to sftp urørt.
     }
 }
